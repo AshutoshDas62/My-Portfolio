@@ -1,0 +1,241 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #f4f9ee;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #151415;
+    color: #333;
+    line-height: 1.6;
+}
+/* video for background GIF */
+.vidoe{
+    position:absolute;
+    width: 100%;
+    right: 0;
+    bottom: 200px;
+    z-index: -1;
+    height: 100%;
+    overflow: hidden;
+    margin: 5px;
+    border-radius: 25px;
+    object-fit: cover;
+    margin-right:0px;
+}
+/* Home Section */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+   /* padding: 20px;
+    margin-top: -20px; */
+
+}
+/* About Section */
+.containers{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: -20px;
+}
+/* for head line under about section */
+.containers h2 {
+      margin-bottom: 20px;
+}
+/* for paragraph line under about section */
+.containers p {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+/* Contact Section */
+ 
+ /* social media links under the contact section */
+.containerr {
+   
+    display: flex;       
+    justify-content: space-between; 
+    align-items: center;     
+    padding: 10px 30px;      
+    font-size: 20px;
+
+    
+}
+ /* used social media icons from fontosome */
+.fa-brands {
+    display: flex;       
+    justify-content: space-between; 
+    align-items: center;     
+    padding: 10px 20px;      
+    font-size: 50px;
+    color: #151415;
+}
+ /*  this is email icon not fontosome element */
+.fa-solid{
+    display: flex;       
+    justify-content: space-between; 
+    align-items: center;     
+    padding: 10px 20px;      
+    font-size: 50px;
+    color: #151415;
+}
+.fa-solid:hover{
+    color: blue;
+}
+.fa-brands:hover{
+    
+    color: blue;
+
+}
+/* this is for my name as stylish font */
+#name{
+    margin-left: -895px;
+    font-family: "Playwrite DE Grund", cursive;
+    font-size: 20px;
+}
+.title{
+    font-size: large;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;       
+    justify-content: space-between; 
+    align-items: center;     
+    padding: 10px 20px;      
+    background-color: #110f0f;
+   }
+   .navbar img {
+    width: 50px;             /* Adjust image size */
+    height: 50px;
+    border-radius: 50%;      /* Circle image */
+  }
+
+  /* Navigation links container */
+  .nav-links {
+    display: flex;           /* Display links in a row */
+    gap: 20px;               /* Space between links */
+  }
+
+  /* Styling for the links */
+  .nav-links a {
+    color: white;            /* White text color */
+    text-decoration: none;   /* Remove underline */
+    font-size: 18px; 
+    font-family: "Playwrite DE Grund", cursive;        /* Font size */
+  }
+
+  /* Hover effect on the links */
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+
+/* Sections */
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* for background color- Home section, About section, and Contact section */ 
+#home {
+   
+}
+
+#about {
+    background-color: #585656;
+    border-radius: 20px;
+    
+}
+
+#contact {
+    background-color: #b1aaaa;
+    border-radius: 20px;
+}
+
+/* Profile Section */
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+
+.profile-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 30%;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+.about-me h2 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.about-me p {
+    font-size: 1.5rem;
+    color: #f9f2f2;
+    max-width: 750px;
+    font-family: "Playwrite DE Grund", cursive;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-green {
+    background-color: #96c93d;
+}
+
+.btn-orange {
+    background-color: #f39c12;
+}
+
+.btn-blue {
+    background-color: #00a8ff;
+}
+
+.btn-grey {
+    background-color: #95a5a6;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+
+  
+  
